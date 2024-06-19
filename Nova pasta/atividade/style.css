@@ -1,0 +1,56 @@
+/*Resetar css*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: rgb(17, 0, 255);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 50vw;
+    height: 700px;
+    background-color: rgb(17, 0, 255);
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.content img{
+    margin-top: 50px;
+    width: 70%;
+}
+
+#yes{
+    background-color: rgb(25, 194, 19);
+    padding: 5px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+
+#no{
+    background-color: red;
+    padding: 5px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-area{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
